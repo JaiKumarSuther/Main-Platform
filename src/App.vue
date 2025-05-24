@@ -1,14 +1,14 @@
 <script setup>
   import Footer from "./components/Footer.vue";
   import Header from "./components/Header.vue";
-  import Car from "./components/Vehicle/Car/Car.vue";
+  import Activity from "./components/Vehicle/Activity/Activity.vue";
 
 </script>
 
 <template>
   <main>
     <Header />
-      <Car/>
+      <Activity/>
     <Footer />
   </main>
 </template>

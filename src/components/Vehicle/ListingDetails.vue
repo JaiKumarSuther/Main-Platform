@@ -4,8 +4,12 @@ defineProps({
   price: String,
   location: String,
   mainImage: String,
-  galleryImages: Array
-})
+  galleryImages: Array,
+  priceSuffix: {
+    type: String,
+    default: "/day"
+  }
+});
 </script>
 
 <template>
@@ -13,7 +17,7 @@ defineProps({
     <div class="listing-header">
       <section class="listing-header-details">
         <h1>{{ title }}</h1>
-        <p>From <span class="price">{{ price }}</span><small>/day</small></p>
+        <p>From <span class="price">{{ price }}</span><small>{{ priceSuffix }}</small></p>
       </section>
       <span class="location-mobile">
         <img src="/src/images/Location icon.svg" alt="" />
@@ -34,8 +38,14 @@ defineProps({
         <img :src="mainImage" alt="Main Tour Image" />
       </div>
       <div class="side-images">
-        <img v-for="(img, index) in galleryImages" :key="index" :src="img" :alt="'Image ' + (index + 1)" />
+        <img
+          v-for="(img, index) in galleryImages"
+          :key="index"
+          :src="img"
+          :alt="'Image ' + (index + 1)"
+        />
       </div>
     </section>
   </div>
 </template>
+
