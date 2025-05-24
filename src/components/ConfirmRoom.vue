@@ -1,11 +1,11 @@
 <script setup>
-import SidebarMobile from "../SidebarMobile.vue";
-import HotelListingDetails from "../HotelListingDetails.vue";
-import HotelHeader from "../HotelHeader.vue";
-import SelectRoom from "../SelectRoom.vue";
-import MoreDetails from "../MoreDetails.vue";
-import FAQs from "../FAQs.vue";
-import ReviewCount from "../ReviewCount.vue";
+import SidebarMobile from "../components/UI/SidebarMobile.vue";
+import HotelListingDetails from "../components/UI/HotelListingDetails.vue";
+import HotelHeader from "../components/UI/HotelHeader.vue";
+import SelectRoom from "../components/UI/SelectRoom.vue";
+import MoreDetails from "../components/UI/MoreDetails.vue";
+import FAQs from "../components/UI/FAQs.vue";
+import ReviewCount from "../components/UI/ReviewCount.vue";
 
 const rooms = [
   {
