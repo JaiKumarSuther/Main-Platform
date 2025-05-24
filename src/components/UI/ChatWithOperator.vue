@@ -2,7 +2,7 @@
 const props = defineProps({
   icon: {
     type: String,
-    default: '/images/chat-after-booking.svg' // make sure this file is in /public/images/
+    default: '/images/chat-after-booking.svg'
   },
   title: {
     type: String,
