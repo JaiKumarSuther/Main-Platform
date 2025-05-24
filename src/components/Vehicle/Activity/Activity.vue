@@ -1,7 +1,7 @@
 <script setup>
 import SidebarMobile from "../SidebarMobile.vue";
 import ListingDetails from "../ListingDetails.vue";
-import VehicleHeader from "../VehicleHeader.vue";
+import Header from "../Header.vue";
 import Details from "../Details.vue";
 import MobileMap from "../MobileMap.vue";
 import OperatorCardMobile from "../OperatorCardMobile.vue";
@@ -51,7 +51,7 @@ const activityData = {
 
     <div class="listing-info-details">
       <div class="listing-info">
-        <VehicleHeader :location="activityData.location" />
+        <Header :location="activityData.location" />
 
         <Details
           :items="[

@@ -12,7 +12,7 @@ import ProtectedBookingCard from "../ProtectedBookingCard.vue";
 import ProtectedBookingCardMobile from "../ProtectedBookingCardMobile.vue";
 import SidebarMobile from "../SidebarMobile.vue";
 import ListingDetails from "../ListingDetails.vue";
-import VehicleHeader from "../VehicleHeader.vue";
+import Header from "../Header.vue";
 import Details from "../Details.vue";
 import Included from "../Included.vue";
 import MoreDetails from "../MoreDetails.vue";
@@ -48,7 +48,7 @@ const bikeData = {
 
     <div class="listing-info-details">
       <div class="listing-info">
-        <VehicleHeader location="Islamabad" />
+        <Header location="Islamabad" />
 
         <Details
           :items="[

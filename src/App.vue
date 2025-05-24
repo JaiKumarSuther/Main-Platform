@@ -1,14 +1,14 @@
 <script setup>
   import Footer from "./components/Footer.vue";
   import Header from "./components/Header.vue";
-  import Activity from "./components/Vehicle/Activity/Activity.vue";
+  import GroupTour from "./components/Vehicle/GroupTour/GroupTour.vue";
 
 </script>
 
 <template>
   <main>
     <Header />
-      <Activity/>
+      <GroupTour/>
     <Footer />
   </main>
 </template>
