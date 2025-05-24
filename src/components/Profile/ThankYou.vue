@@ -145,7 +145,6 @@
             />
           </svg>
         </div>
-
         <div class="thankyou-message">
           <img
             src="/src/images/celebration-party-winter-svgrepo-com.svg"
