@@ -1,14 +1,14 @@
 <script setup>
   import Footer from "./components/Footer.vue";
   import Header from "./components/Header.vue";
-  import GroupTour from "./components/Vehicle/GroupTour/GroupTour.vue";
+  import ConfirmRoom from "./components/Vehicle/ConfirmRoom/ConfirmRoom.vue";
 
 </script>
 
 <template>
   <main>
     <Header />
-      <GroupTour/>
+      <ConfirmRoom/>
     <Footer />
   </main>
 </template>
